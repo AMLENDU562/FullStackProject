@@ -1,0 +1,70 @@
+/* App.css */
+
+
+  
+  #faqs {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+  }
+  
+  h1 {
+    font-weight: bold;
+    text-align: center;
+    
+  }
+  
+  .accordion-item {
+    border-radius: 0.375rem;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .accordion-item button {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .accordion-item .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .accordion-item .tittle {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+  
+  .accordion-item .ml-auto {
+    margin-left: auto;
+  }
+  
+  .accordion-item svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    transition: transform 0.2s ease;
+  }
+  
+  .accordion-item svg.rotate-180 {
+    transform: rotate(180deg);
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 1rem;
+  }
+  
+  .accordion-item.open .accordion-content {
+    display: block;
+  }
+  
