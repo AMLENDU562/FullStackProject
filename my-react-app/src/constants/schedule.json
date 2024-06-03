@@ -1,0 +1,440 @@
+{
+  "stream": "Information Science",
+  "schedules": {
+    "semester_1": {
+      "Monday": [
+        { "time": "09:00-10:00", "course": "Mathematics I", "room": "IT101" },
+        { "time": "10:00-11:00", "course": "Physics", "room": "IT102" },
+        {
+          "time": "11:00-12:00",
+          "course": "Introduction to IT",
+          "room": "IT103"
+        },
+        { "time": "13:00-14:00", "course": "Chemistry", "room": "IT104" },
+        { "time": "14:00-15:00", "course": "English", "room": "IT105" }
+      ],
+      "Tuesday": [
+        { "time": "09:00-10:00", "course": "Mathematics I", "room": "IT101" },
+        { "time": "10:00-11:00", "course": "Physics Lab", "room": "Lab1" },
+        { "time": "11:00-12:00", "course": "Chemistry", "room": "IT104" },
+        { "time": "13:00-14:00", "course": "English", "room": "IT105" },
+        {
+          "time": "14:00-15:00",
+          "course": "Introduction to IT",
+          "room": "IT103"
+        }
+      ],
+      "Wednesday": [
+        { "time": "09:00-10:00", "course": "Physics", "room": "IT102" },
+        { "time": "10:00-11:00", "course": "Chemistry Lab", "room": "Lab2" },
+        { "time": "11:00-12:00", "course": "Mathematics I", "room": "IT101" },
+        { "time": "13:00-14:00", "course": "English", "room": "IT105" },
+        {
+          "time": "14:00-15:00",
+          "course": "Introduction to IT",
+          "room": "IT103"
+        }
+      ],
+      "Thursday": [
+        { "time": "09:00-10:00", "course": "Physics", "room": "IT102" },
+        { "time": "10:00-11:00", "course": "Mathematics I", "room": "IT101" },
+        { "time": "11:00-12:00", "course": "Chemistry", "room": "IT104" },
+        { "time": "13:00-14:00", "course": "English Lab", "room": "Lab3" },
+        {
+          "time": "14:00-15:00",
+          "course": "Introduction to IT",
+          "room": "IT103"
+        }
+      ],
+      "Friday": [
+        { "time": "09:00-10:00", "course": "Physics", "room": "IT102" },
+        { "time": "10:00-11:00", "course": "Mathematics I", "room": "IT101" },
+        { "time": "11:00-12:00", "course": "Chemistry", "room": "IT104" },
+        { "time": "13:00-14:00", "course": "English", "room": "IT105" },
+        {
+          "time": "14:00-15:00",
+          "course": "Introduction to IT",
+          "room": "IT103"
+        }
+      ]
+    },
+    "semester_2": {
+      "Monday": [
+        { "time": "09:00-10:00", "course": "Mathematics II", "room": "IT201" },
+        { "time": "10:00-11:00", "course": "Data Structures", "room": "IT202" },
+        { "time": "11:00-12:00", "course": "Digital Logic", "room": "IT203" },
+        {
+          "time": "13:00-14:00",
+          "course": "Discrete Mathematics",
+          "room": "IT204"
+        },
+        {
+          "time": "14:00-15:00",
+          "course": "Environmental Studies",
+          "room": "IT205"
+        }
+      ],
+      "Tuesday": [
+        { "time": "09:00-10:00", "course": "Mathematics II", "room": "IT201" },
+        {
+          "time": "10:00-11:00",
+          "course": "Data Structures Lab",
+          "room": "Lab1"
+        },
+        { "time": "11:00-12:00", "course": "Digital Logic", "room": "IT203" },
+        {
+          "time": "13:00-14:00",
+          "course": "Discrete Mathematics",
+          "room": "IT204"
+        },
+        {
+          "time": "14:00-15:00",
+          "course": "Environmental Studies",
+          "room": "IT205"
+        }
+      ],
+      "Wednesday": [
+        { "time": "09:00-10:00", "course": "Data Structures", "room": "IT202" },
+        {
+          "time": "10:00-11:00",
+          "course": "Digital Logic Lab",
+          "room": "Lab2"
+        },
+        { "time": "11:00-12:00", "course": "Mathematics II", "room": "IT201" },
+        {
+          "time": "13:00-14:00",
+          "course": "Discrete Mathematics",
+          "room": "IT204"
+        },
+        {
+          "time": "14:00-15:00",
+          "course": "Environmental Studies",
+          "room": "IT205"
+        }
+      ],
+      "Thursday": [
+        { "time": "09:00-10:00", "course": "Data Structures", "room": "IT202" },
+        { "time": "10:00-11:00", "course": "Mathematics II", "room": "IT201" },
+        { "time": "11:00-12:00", "course": "Digital Logic", "room": "IT203" },
+        {
+          "time": "13:00-14:00",
+          "course": "Discrete Mathematics",
+          "room": "IT204"
+        },
+        {
+          "time": "14:00-15:00",
+          "course": "Environmental Studies",
+          "room": "IT205"
+        }
+      ],
+      "Friday": [
+        { "time": "09:00-10:00", "course": "Data Structures", "room": "IT202" },
+        { "time": "10:00-11:00", "course": "Mathematics II", "room": "IT201" },
+        { "time": "11:00-12:00", "course": "Digital Logic", "room": "IT203" },
+        {
+          "time": "13:00-14:00",
+          "course": "Discrete Mathematics",
+          "room": "IT204"
+        },
+        {
+          "time": "14:00-15:00",
+          "course": "Environmental Studies",
+          "room": "IT205"
+        }
+      ]
+    },
+    "semester_3": {
+      "Monday": [
+        { "time": "09:00-10:00", "course": "Algorithms", "room": "IT301" },
+        {
+          "time": "10:00-11:00",
+          "course": "Computer Networks",
+          "room": "IT302"
+        },
+        {
+          "time": "11:00-12:00",
+          "course": "Database Systems",
+          "room": "IT303"
+        },
+        {
+          "time": "13:00-14:00",
+          "course": "Operating Systems",
+          "room": "IT304"
+        },
+        {
+          "time": "14:00-15:00",
+          "course": "Software Engineering",
+          "room": "IT305"
+        }
+      ],
+      "Tuesday": [
+        { "time": "09:00-10:00", "course": "Algorithms", "room": "IT301" },
+        {
+          "time": "10:00-11:00",
+          "course": "Computer Networks Lab",
+          "room": "Lab1"
+        },
+        {
+          "time": "11:00-12:00",
+          "course": "Database Systems",
+          "room": "IT303"
+        },
+        {
+          "time": "13:00-14:00",
+          "course": "Operating Systems",
+          "room": "IT304"
+        },
+        {
+          "time": "14:00-15:00",
+          "course": "Software Engineering",
+          "room": "IT305"
+        }
+      ],
+      "Wednesday": [
+        {
+          "time": "09:00-10:00",
+          "course": "Computer Networks",
+          "room": "IT302"
+        },
+        {
+          "time": "10:00-11:00",
+          "course": "Database Systems Lab",
+          "room": "Lab2"
+        },
+        { "time": "11:00-12:00", "course": "Algorithms", "room": "IT301" },
+        {
+          "time": "13:00-14:00",
+          "course": "Operating Systems",
+          "room": "IT304"
+        },
+        {
+          "time": "14:00-15:00",
+          "course": "Software Engineering",
+          "room": "IT305"
+        }
+      ],
+      "Thursday": [
+        {
+          "time": "09:00-10:00",
+          "course": "Computer Networks",
+          "room": "IT302"
+        },
+        { "time": "10:00-11:00", "course": "Algorithms", "room": "IT301" },
+        {
+          "time": "11:00-12:00",
+          "course": "Database Systems",
+          "room": "IT303"
+        },
+        {
+          "time": "13:00-14:00",
+          "course": "Operating Systems",
+          "room": "IT304"
+        }
+      ],
+
+      "Friday": [
+        {
+          "time": "09:00-10:00",
+          "course": "Operating Systems",
+          "room": "IT304"
+        },
+        { "time": "10:00-11:00", "course": "Algorithms", "room": "IT301" },
+        {
+          "time": "11:00-12:00",
+          "course": "Database Systems",
+          "room": "IT303"
+        },
+        {
+          "time": "13:00-14:00",
+          "course": "Computer Networks",
+          "room": "IT302"
+        }
+      ]
+    },
+    "semester_4": {
+        "Monday": [
+          {"time": "09:00-10:00", "course": "Mathematics IV", "room": "IT401"},
+          {"time": "10:00-11:00", "course": "Computer Architecture", "room": "IT402"},
+          {"time": "11:00-12:00", "course": "Database Management Systems", "room": "IT403"},
+          {"time": "13:00-14:00", "course": "Operating Systems", "room": "IT404"},
+          {"time": "14:00-15:00", "course": "Object-Oriented Programming", "room": "IT405"}
+        ],
+        "Tuesday": [
+          {"time": "09:00-10:00", "course": "Mathematics IV", "room": "IT401"},
+          {"time": "10:00-11:00", "course": "Computer Architecture Lab", "room": "Lab1"},
+          {"time": "11:00-12:00", "course": "Database Management Systems", "room": "IT403"},
+          {"time": "13:00-14:00", "course": "Operating Systems", "room": "IT404"},
+          {"time": "14:00-15:00", "course": "Object-Oriented Programming", "room": "IT405"}
+        ],
+        "Wednesday": [
+          {"time": "09:00-10:00", "course": "Computer Architecture", "room": "IT402"},
+          {"time": "10:00-11:00", "course": "Database Management Systems Lab", "room": "Lab2"},
+          {"time": "11:00-12:00", "course": "Mathematics IV", "room": "IT401"},
+          {"time": "13:00-14:00", "course": "Operating Systems", "room": "IT404"},
+          {"time": "14:00-15:00", "course": "Object-Oriented Programming", "room": "IT405"}
+        ],
+        "Thursday": [
+          {"time": "09:00-10:00", "course": "Computer Architecture", "room": "IT402"},
+          {"time": "10:00-11:00", "course": "Mathematics IV", "room": "IT401"},
+          {"time": "11:00-12:00", "course": "Database Management Systems", "room": "IT403"},
+          {"time": "13:00-14:00", "course": "Operating Systems", "room": "IT404"},
+          {"time": "14:00-15:00", "course": "Object-Oriented Programming Lab", "room": "Lab3"}
+        ],
+        "Friday": [
+          {"time": "09:00-10:00", "course": "Computer Architecture", "room": "IT402"},
+          {"time": "10:00-11:00", "course": "Mathematics IV", "room": "IT401"},
+          {"time": "11:00-12:00", "course": "Database Management Systems", "room": "IT403"},
+          {"time": "13:00-14:00", "course": "Operating Systems", "room": "IT404"},
+          {"time": "14:00-15:00", "course": "Object-Oriented Programming", "room": "IT405"}
+        ]
+      },
+      "semester_5": {
+        "Monday": [
+          {"time": "09:00-10:00", "course": "Theory of Computation", "room": "IT501"},
+          {"time": "10:00-11:00", "course": "Computer Networks", "room": "IT502"},
+          {"time": "11:00-12:00", "course": "Database Systems", "room": "IT503"},
+          {"time": "13:00-14:00", "course": "Operating Systems", "room": "IT504"},
+          {"time": "14:00-15:00", "course": "Software Engineering", "room": "IT505"}
+        ],
+        "Tuesday": [
+          {"time": "09:00-10:00", "course": "Theory of Computation", "room": "IT501"},
+          {"time": "10:00-11:00", "course": "Computer Networks Lab", "room": "Lab1"},
+          {"time": "11:00-12:00", "course": "Database Systems", "room": "IT503"},
+          {"time": "13:00-14:00", "course": "Operating Systems", "room": "IT504"},
+          {"time": "14:00-15:00", "course": "Software Engineering", "room": "IT505"}
+        ],
+        "Wednesday": [
+          {"time": "09:00-10:00", "course": "Computer Networks", "room": "IT502"},
+          {"time": "10:00-11:00", "course": "Database Systems Lab", "room": "Lab2"},
+          {"time": "11:00-12:00", "course": "Theory of Computation", "room": "IT501"},
+          {"time": "13:00-14:00", "course": "Operating Systems", "room": "IT504"},
+          {"time": "14:00-15:00", "course": "Software Engineering", "room": "IT505"}
+        ],
+        "Thursday": [
+          {"time": "09:00-10:00", "course": "Computer Networks", "room": "IT502"},
+          {"time": "10:00-11:00", "course": "Theory of Computation", "room": "IT501"},
+          {"time": "11:00-12:00", "course": "Database Systems", "room": "IT503"},
+          {"time": "13:00-14:00", "course": "Operating Systems", "room": "IT504"},
+          {"time": "14:00-15:00", "course": "Software Engineering", "room": "IT505"}
+        ],
+        "Friday": [
+          {"time": "09:00-10:00", "course": "Computer Networks", "room": "IT502"},
+          {"time": "10:00-11:00", "course": "Theory of Computation", "room": "IT501"},
+          {"time": "11:00-12:00", "course": "Database Systems", "room": "IT503"},
+          {"time": "13:00-14:00", "course": "Operating Systems", "room": "IT504"},
+          {"time": "14:00-15:00", "course": "Software Engineering", "room": "IT505"}
+        ]
+      },
+      "semester_6": {
+        "Monday": [
+          {"time": "09:00-10:00", "course": "Artificial Intelligence", "room": "IT601"},
+          {"time": "10:00-11:00", "course": "Machine Learning", "room": "IT602"},
+          {"time": "11:00-12:00", "course": "Cloud Computing", "room": "IT603"},
+          {"time": "13:00-14:00", "course": "Data Mining", "room": "IT604"},
+          {"time": "14:00-15:00", "course": "Web Technologies", "room": "IT605"}
+        ],
+        "Tuesday": [
+          {"time": "09:00-10:00", "course": "Artificial Intelligence", "room": "IT601"},
+          {"time": "10:00-11:00", "course": "Machine Learning Lab", "room": "Lab1"},
+          {"time": "11:00-12:00", "course": "Cloud Computing", "room": "IT603"},
+          {"time": "13:00-14:00", "course": "Data Mining", "room": "IT604"},
+          {"time": "14:00-15:00", "course": "Web Technologies", "room": "IT605"}
+        ],
+        "Wednesday": [
+          {"time": "09:00-10:00", "course": "Machine Learning", "room": "IT602"},
+          {"time": "10:00-11:00", "course": "Cloud Computing Lab", "room": "Lab2"},
+          {"time": "11:00-12:00", "course": "Artificial Intelligence", "room": "IT601"},
+          {"time": "13:00-14:00", "course": "Data Mining", "room": "IT604"},
+          {"time": "14:00-15:00", "course": "Web Technologies", "room": "IT605"}
+        ],
+        "Thursday": [
+          {"time": "09:00-10:00", "course": "Machine Learning", "room": "IT602"},
+          {"time": "10:00-11:00", "course": "Artificial Intelligence", "room": "IT601"},
+          {"time": "11:00-12:00", "course": "Cloud Computing", "room": "IT603"},
+          {"time": "13:00-14:00", "course": "Data Mining", "room": "IT604"},
+          {"time": "14:00-15:00", "course": "Web Technologies Lab", "room": "Lab3"}
+        ],
+        "Friday": [
+          {"time": "09:00-10:00", "course": "Machine Learning", "room": "IT602"},
+          {"time": "10:00-11:00", "course": "Artificial Intelligence", "room": "IT601"},
+          {"time": "11:00-12:00", "course": "Cloud Computing", "room": "IT603"},
+          {"time": "13:00-14:00", "course": "Data Mining", "room": "IT604"},
+          {"time": "14:00-15:00", "course": "Web Technologies", "room": "IT605"}
+        ]
+      },
+      "semester_7": {
+        "Monday": [
+          {"time": "09:00-10:00", "course": "Big Data Analytics", "room": "IT701"},
+          {"time": "10:00-11:00", "course": "Cyber Security", "room": "IT702"},
+          {"time": "11:00-12:00", "course": "Mobile Computing", "room": "IT703"},
+          {"time": "13:00-14:00", "course": "Cloud Infrastructure", "room": "IT704"},
+          {"time": "14:00-15:00", "course": "Elective I", "room": "IT705"}
+        ],
+        "Tuesday": [
+          {"time": "09:00-10:00", "course": "Big Data Analytics", "room": "IT701"},
+          {"time": "10:00-11:00", "course": "Cyber Security Lab", "room": "Lab1"},
+          {"time": "11:00-12:00", "course": "Mobile Computing", "room": "IT703"},
+          {"time": "13:00-14:00", "course": "Cloud Infrastructure", "room": "IT704"},
+          {"time": "14:00-15:00", "course": "Elective I", "room": "IT705"}
+        ],
+        "Wednesday": [
+          {"time": "09:00-10:00", "course": "Cyber Security", "room": "IT702"},
+          {"time": "10:00-11:00", "course": "Mobile Computing Lab", "room": "Lab2"},
+          {"time": "11:00-12:00", "course": "Big Data Analytics", "room": "IT701"},
+          {"time": "13:00-14:00", "course": "Cloud Infrastructure", "room": "IT704"},
+          {"time": "14:00-15:00", "course": "Elective I", "room": "IT705"}
+        ],
+        "Thursday": [
+          {"time": "09:00-10:00", "course": "Cyber Security", "room": "IT702"},
+          {"time": "10:00-11:00", "course": "Big Data Analytics", "room": "IT701"},
+          {"time": "11:00-12:00", "course": "Mobile Computing", "room": "IT703"},
+          {"time": "13:00-14:00", "course": "Cloud Infrastructure", "room": "IT704"},
+          {"time": "14:00-15:00", "course": "Elective I", "room": "IT705"}
+        ],
+
+        "Friday": [
+            {"time": "09:00-10:00", "course": "Cyber Security", "room": "IT702"},
+            {"time": "10:00-11:00", "course": "Big Data Analytics", "room": "IT701"},
+            {"time": "11:00-12:00", "course": "Mobile Computing", "room": "IT703"},
+            {"time": "14:00-15:00", "course": "Elective I", "room": "IT705"}
+          ]
+    },
+      "semester_8":{
+        "Monday": [
+          {"time": "09:00-10:00", "course": "Machine Learning", "room": "IT101"},
+          {"time": "10:00-11:00", "course": "Project Management", "room": "IT102"},
+          {"time": "11:00-12:00", "course": "Cloud Computing", "room": "IT103"},
+          {"time": "13:00-14:00", "course": "Internet of Things", "room": "IT104"},
+          {"time": "14:00-16:00", "course": "Capstone Project", "room": "Lab1"}
+        ],
+        "Tuesday": [
+          {"time": "09:00-10:00", "course": "Cyber Security", "room": "IT105"},
+          {"time": "10:00-11:00", "course": "Project Management", "room": "IT102"},
+          {"time": "11:00-12:00", "course": "Big Data Analytics", "room": "IT106"},
+          {"time": "13:00-14:00", "course": "Internet of Things", "room": "IT104"},
+          {"time": "14:00-16:00", "course": "Capstone Project", "room": "Lab1"}
+        ],
+        "Wednesday": [
+          {"time": "09:00-10:00", "course": "Machine Learning", "room": "IT101"},
+          {"time": "10:00-11:00", "course": "Cloud Computing", "room": "IT103"},
+          {"time": "11:00-12:00", "course": "Cyber Security", "room": "IT105"},
+          {"time": "13:00-14:00", "course": "Big Data Analytics", "room": "IT106"},
+          {"time": "14:00-16:00", "course": "Capstone Project", "room": "Lab1"}
+        ],
+        "Thursday": [
+          {"time": "09:00-10:00", "course": "Internet of Things", "room": "IT104"},
+          {"time": "10:00-11:00", "course": "Machine Learning", "room": "IT101"},
+          {"time": "11:00-12:00", "course": "Cyber Security", "room": "IT105"},
+          {"time": "13:00-14:00", "course": "Project Management", "room": "IT102"},
+          {"time": "14:00-16:00", "course": "Capstone Project", "room": "Lab1"}
+        ],
+        "Friday": [
+          {"time": "09:00-10:00", "course": "Big Data Analytics", "room": "IT106"},
+          {"time": "10:00-11:00", "course": "Cloud Computing", "room": "IT103"},
+          {"time": "11:00-12:00", "course": "Project Management", "room": "IT102"},
+          {"time": "13:00-14:00", "course": "Internet of Things", "room": "IT104"},
+          {"time": "14:00-16:00", "course": "Capstone Project", "room": "Lab1"}
+        ]
+      }
+  }
+}

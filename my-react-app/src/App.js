@@ -1,94 +1,11 @@
 import React, { useState } from "react";
 import "./styles/App.css";
-
+import Schedule from "./Schedule";
+import ScheduleData from "./constants/schedule.json";
 const App = () => {
   const [activeAccordion, setActiveAccordion] = useState(null);
 
-  const accordionData = [
-    {
-      title: "Semester-1 Section-A",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-1 Section-B",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-2 Section-A",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-2 Section-B",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-3 Section-A",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-3 Section-B",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-4 Section-A",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-4 Section-B",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-5 Section-A",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-5 Section-B",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-
-    {
-      title: "Semester-6 Section-A",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-6 Section-B",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-7 Section-A",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-7 Section-B",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-8 Section-A",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    {
-      title: "Semester-8 Section-B",
-      content:
-        "Catalysis is a 3-day interdepartmental technical fest organised by team Genesis of the Department of Information Science and Engineering.",
-    },
-    
-   
-  ];
+  const semsester_keys = Object.keys(ScheduleData.schedules)
 
   const toggleAccordion = (index) => {
     if (activeAccordion === index) {
@@ -100,13 +17,13 @@ const App = () => {
 
   return (
     <div id="faqs">
-      <h1>Welcome To Time Table Viewer</h1>
-      <h1>Type Your Sem and Sec To View Your Class TimeTable</h1>
-      {accordionData.map((item, index) => (
+      <h1 className="heading">Schedule Viewer</h1>
+      <h1>Get your Weekly Schedule for all semesters.</h1>
+      {semsester_keys.map((item, index) => (
         <div key={index} className={`accordion-item ${activeAccordion === index ? "open" : ""}`}>
           <button onClick={() => toggleAccordion(index)}>
             <div className="flex items-center">
-              <div className="tittle">{item.title}</div>
+              <div className="tittle">{item.split('_')[0].toLocaleUpperCase()+" " + item.split('_')[1]}</div>
               <div className="ml-auto">
                 <svg
                   className={activeAccordion === index ? "rotate-180" : ""}
@@ -125,7 +42,7 @@ const App = () => {
             </div>
           </button>
           <div className={`accordion-content ${activeAccordion === index ? "open" : ""}`}>
-            {item.content}
+          <Schedule semester={index + 1} timetable={ScheduleData}/>
           </div>
         </div>
       ))}

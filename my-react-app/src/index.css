@@ -14,7 +14,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.tt{
+display: flex;
+width: 100%;
+justify-content: center;
+}
+table{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  width: 100%;
+}
+.heading{
+font-size: 36px;
+text-decoration: underline;
+text-underline-offset: 8px;
+}
 
+.tt th {
+  color: white;
+  font-size: larger;
+  background-color: #4F4A45;
+  padding:8px 16px 8px 16px;
+  min-width: 120px;
+}
+.time, .room, .course{
+ border-bottom: 2px solid;
+}
+.tt td{
+  padding:8px 16px 8px 16px;
+  line-height: 32px;
+  border:2px solid #4F4A45;
+}
+table{
+  color: #4F4A45;
+}
 .login__input {
 	border: none;
 	border-bottom: 2px solid #D1D1D4;
@@ -62,4 +94,14 @@ input[type=submit]:hover{
 h2{
   text-align:left;
   color:black;
+}
+.day0{
+  background-color: lightcyan;
+}
+
+.day1{
+  background-color: #ffff;
+}
+.day{
+  font-size: 22px;
 }
