@@ -393,7 +393,7 @@
         ],
 
         "Friday": [
-            {"time": "09:00-10:00", "course": "Cyber Security", "room": "IT702"},
+            {"time": "09:00-10:00", "course": "cyber Security", "room": "IT702"},
             {"time": "10:00-11:00", "course": "Big Data Analytics", "room": "IT701"},
             {"time": "11:00-12:00", "course": "Mobile Computing", "room": "IT703"},
             {"time": "14:00-15:00", "course": "Elective I", "room": "IT705"}

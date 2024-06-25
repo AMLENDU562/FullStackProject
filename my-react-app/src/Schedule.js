@@ -15,13 +15,26 @@ const Schedule = ({ semester, timetable }) => {
       <table>
         <thead>
           <tr>
-            <th>Day</th>
-            <th>Time</th>
-            <th>Course</th>
-            <th>Room</th>
+          <th></th>
+            {getDaySchedule('Monday').map(({time})=>{
+              return <th>{time}</th>
+            })}
           </tr>
         </thead>
         <tbody>
+          {['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].map((day,key)=><>
+            <tr className={"day"+key%2} key={day}>
+            <td>{day}</td>
+            {getDaySchedule(day).map(({ time,course,room }) => (
+                  <td className='time' key={time}>
+                    <p>{course}</p>
+                    <p>{room}</p>
+                  </td>
+                ))}
+          </tr>
+          </>)}
+        </tbody>
+        {/* <tbody>
           {['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].map((day,key) => (
             <tr  className={"day"+key%2} key={day}>
               <td className='day'>{day}</td>
@@ -42,7 +55,7 @@ const Schedule = ({ semester, timetable }) => {
               </td>
             </tr>
           ))}
-        </tbody>
+        </tbody> */}
       </table>
       </div>
     </div>
